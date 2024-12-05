@@ -2,6 +2,8 @@ package model
 
 import "time"
 
+
+
 type User struct {
 	ID        uint      `gorm:"primaryKey"`
 	FirstName string    `gorm:"size:100;not null"`
